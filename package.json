@@ -1,0 +1,19 @@
+{
+  "name": "gdou_cas_login4nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go": "cd ./src & node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-parser": "^1.4.6",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.1",
+    "qs": "^6.11.0"
+  }
+}
