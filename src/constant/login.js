@@ -4,7 +4,7 @@ module.exports = {
     _eventId: 'submit',
     cllt: "userNameLogin",
     dllt: "generalLogin",
-    rememberMe: "true"
+    rememberMe: "false"
   },
   publicHeader: {
     Accept: '*/*',

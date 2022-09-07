@@ -15,6 +15,10 @@
 
 ## 开始使用
 
+### 入口文件
+
+是 src 下的 `index.js` 文件，里面有一个异步获取 cookie 的操作
+
 ### 克隆到本地
 ```
 git clone https://github.com/QingXia-Ela/GDOU_CAS_Login4NodeJS.git

@@ -8,6 +8,7 @@ function changeSetCookie2Obj(cookies) {
   const res = {}
   if (!cookies) return null
   cookies.forEach((value) => {
+    if (!value) return
     let data = value.split('; ')
     let name = ''
     for (let i = 0; i < data.length; i++) {
@@ -15,6 +16,7 @@ function changeSetCookie2Obj(cookies) {
       // cookie 内容
       if (i == 0) {
         name = ele[0]
+        if (ele[1].length === 0) continue
         res[name] = {
           value: ele[1]
         }
